@@ -51,6 +51,6 @@ App.post('/api/users/upload',upload.single('file'),async(req,res)=>{
 App.use('/api/users', userRouter);
 
 
-App.listen(3000, () => {     
+App.listen(3002, () => {     
     console.log('Server is running on port 3000');
 });
